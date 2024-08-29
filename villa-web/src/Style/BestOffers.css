@@ -1,0 +1,150 @@
+
+.best-offers {
+    padding: 50px;
+    background-color: #f8f9fa;
+  }
+  
+  .view-more {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .offers-slider {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .offer-card {
+    background-color: #ebfafe;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 470px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offer-card img {
+    border-radius: 10px;
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .offer-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .offer-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .book-now {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .dots {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .offer-card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+
+  .offer h1{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin: 30px 20px 0px 70px;
+  }
+  .offer{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .hr{
+    margin: 5px 70px;
+    height: 4px;
+    background-color: #007bff;
+    width: 190px;
+
+  }
+
+  .item{
+   text-align: center;
+   margin: 40px;
+  }
+  .item span{
+    color: #007bff;
+  }
+  .item p{
+    color: #0c1723;
+    text-align: center;
+    font-size: 14px;
+    color: #007bff;
+  }
+
+  .item-content{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .item-content1 img{
+    width: 290px;
+    height: 200px;
+    border-radius: 15px;
+  }
+  .item-content1 h1{
+    font-size: 26px;
+  }
+  .item-content1{
+    background-color: #f5f4f4;
+    width: 290px;
+    box-shadow: 4px 4px 8px black;
+    padding: 20px;
+    border-radius: 18px;
+    cursor: pointer;
+  }
+
+  .item-content1 button{
+    background-color: #007bff;
+    color: #ebfafe;
+    border: none;
+    padding: 6px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .item-content1 button:hover{
+    background-color: orange;
+  }

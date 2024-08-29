@@ -1,0 +1,129 @@
+/* Favorites.css */
+
+.favorites-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .amenities h2{
+    color: #007BFF;
+    font-size: 37px;
+
+  }
+  .amenities p{
+    font-size: 17px;
+  }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  .amenities-grid{
+    margin: 50px;
+  }
+  
+  .amenities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .amenity-item{
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 13px;
+    text-align: center;
+    box-shadow: 1px 1px 3px black;
+  }
+  
+  .amenity-item {
+    font-size: 1rem;
+  }
+  
+  .activity-item, .sightseeing-item {
+    font-size: 0.9rem;
+  }
+  
+  .activity-item h3, .sightseeing-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .local-restaurants ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .local-restaurants li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .local-restaurants h2 {
+    margin-bottom: 20px;
+  }
+  .things-to-do h2{
+    color: #007BFF;
+    font-size: 36px;
+  }
+  
+  .things-to-do p{
+    font-size: 17px;
+  }
+
+  .activity-item img{
+    width: 260px;
+    border-radius: 90px 100px 40px 50px;
+  }
+
+  .activity-item{
+    width: 270px;
+    box-shadow: 3px 4px 8px;
+    padding: 40px;
+    border-radius: 20px;
+    height: 330px;
+  }
+  .activity-item p{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .activities-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px;
+    gap: 20px;
+  }
+  .sightseeing-item img{
+    width: 250px;
+    height: 220px;
+    border-radius: 25% 70%;
+  }
+   .sightseeing-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 40px;
+   }
+   .local-sightseeing h2{
+    margin: 20px;
+    color: #007BFF;
+   }

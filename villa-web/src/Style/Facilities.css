@@ -1,0 +1,212 @@
+.facility{
+    display: flex;
+    justify-content: center;
+    margin: 100px 50px;
+    background-color: #dbeaf2;
+    padding: 30px;
+    gap: 60px;
+    cursor: pointer;
+}
+
+.facility-item1{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+.facility-content img{
+    width: 70px;
+}
+.facility-content p{
+    font-size: 16px;
+}
+.facility-content{
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 70px;
+    box-shadow: 3px 4px 9px black;
+    border-radius: 15px;
+}
+.facility-item span{
+color: #2ca3e2;
+}
+.facility-item h1{
+    font-size: 34px;
+}
+.facility-item button{
+    background-color: #0daaff;
+    padding: 10px 20px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.hr{
+    margin: 5px 70px;
+    height: 4px;
+    background-color: #007bff;
+    width: 190px;
+    margin-bottom: 60px;
+
+  }
+
+  .near-by h1{
+    margin-left:  70px;
+    color: orange;
+  }
+
+  .attract-item img{
+  width: 300px;
+  height: 210px;
+  border-radius: 30px;
+  }
+  .attract-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    margin: 20px 70px;
+    text-align: left;
+  }
+
+  .why-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    gap: 130px;
+  }
+  .why-us img{
+    width: 470px;
+    border-radius: 70px;
+  }
+  .h1 h1{
+    text-align: center;
+    margin: 50px;
+    border-bottom: 4px solid orange;
+    width: 40%;
+    margin-bottom: 6px;
+  }
+
+  .why-us p{
+    font-size: 19px;
+    font-family: serif;
+    box-shadow: 3px 3px 8px black;
+    padding: 15px;
+  }
+  .snapshots{
+    background-color: #dbeaf2;
+    margin: 80px 50px;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .snap-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .snap-item button{
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 9px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .snap-item2 img{
+    width: 210px;
+    height: 290px;
+    border-radius: 40%;
+  }
+  .snap-item2{
+    display: flex;
+    gap: 10px;
+  }
+  .snap-item1 h1{
+    font-size: 36px;
+  }
+  .snap-item1 span{
+    color: #007bff;
+  }
+  .snap-item1 p{
+    font-size: 17px;
+  }
+
+/* Snapshots.css */
+
+
+
+  .counter-section {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .counters {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  .counter-imgs{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 50px;
+  }
+  .counter-img{
+    display: flex;
+    gap: 10px;
+  }
+  .counter-img img{
+    width: 270px;
+    height: 320px;
+    border-radius: 20px;
+  }
+  
+  .counter {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #000000;
+    margin: 30px;
+  }
+  
+  .counter p {
+    margin: 0;
+    font-size: 14px;
+    color: #000000;
+  }
+  .counter span{
+    font-size: 50px;
+  }
+  .counter-section h2{
+    font-size: 34px;
+  }
+  .counter-section{
+    margin-left: 50px;
+  }
+  .counter-section span{
+    color: #007bff;
+  }
+
+  .btn button{
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .clients h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 110px;
+  }
